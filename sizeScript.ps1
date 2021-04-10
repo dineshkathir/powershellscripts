@@ -1,3 +1,6 @@
+<#
+	The below script is used to backup logs automatically for a service when the log file size reaches the specified limit
+#>
 
 #Change file name, service name and max log size above which log has to be backed up
 $fileName = ".\text.txt"
